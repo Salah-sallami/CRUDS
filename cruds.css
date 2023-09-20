@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Righteous', 'cursive';
+    
+    font-weight:200 ;
+}
+body{
+    background-color: rgb(31, 31, 31);
+}
+.crud{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    color: white;
+    margin: 5px 0;
+}
+.inputs input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(14, 14, 14);
+    margin: 4px 0;
+    padding-left: 8px;
+    font-size: 11px;
+    border-radius: 3px;
+    color: white;
+
+}
+.ads input{
+    width: 18%;
+    margin-right: 10px;
+}
+#submit{
+    width: 100%;
+    height: 30px;
+    margin: 4px 4px;
+    background-color: rgb(79, 2, 116);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+#total{
+    background-color: rgb(145, 0, 0);
+    color: white;
+    padding: 4px;
+    border-radius: 3px;
+}
+#total::before{
+    content: 'TOTAL : ';
+}
+.inputs input:hover{
+    transform: scale(1.1);
+    background-color:black ;
+}
+#submit:hover{
+    transform: scale(1.1);
+    background-color:rgb(104, 1, 151) ;
+}
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 4px;
+}
+.btnSearch button{
+    width: 45%;
+    border: none;
+    background-color: rgb(79, 2, 116);
+    height: 30px;
+    margin: 4px 4px;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btnSearch button:hover{
+    transform: scale(1.1);
+    background-color:rgb(104, 1, 151) ;
+}
+table{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin: 3px 0;
+}
+table tbody button{
+    background-color: rgb(79, 2, 116);
+    border: none;
+    border-radius: 7px;
+    padding: 3px 7px;
+    color: white;
+    cursor: pointer;
+
+}
+table tbody button:hover{
+    transform: scale(1.1);
+    background-color:rgb(104, 1, 151);
+    
+}
+tr,td{
+    padding: 5px;
+}
+#DeleteAll button{
+    width: 100%;
+    height: 30px;
+    margin: 4px 4px;
+    background-color: rgb(79, 2, 116);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+#DeleteAll button:hover{
+    transform: scale(1.1);
+    background-color:rgb(104, 1, 151) ;
+}
